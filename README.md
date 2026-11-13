@@ -16,10 +16,12 @@ https://raw.githubusercontent.com/albinzo/BinzoTv/main/sorted_iptv.m3u
 
 ## Nuvio add-on
 
-`build_addon.py` turns the playlist into a static add-on in `docs/`, published with GitHub Pages and rebuilt by the same daily workflow. Each section shows up in Nuvio as its own row of live channels.
+`build_addon.py` turns the playlist into a static add-on in `docs/`, rebuilt by the same daily workflow. Each section shows up in Nuvio as its own row of live channels.
 
 Install link (paste it in Nuvio under Add-ons):
 
 ```
-https://albinzo.github.io/BinzoTv/manifest.json
+https://raw.githubusercontent.com/albinzo/BinzoTv/main/docs/manifest.json
 ```
+
+If GitHub Pages is turned on for this repo (Settings > Pages > Deploy from a branch > `main` / `/docs`), `https://albinzo.github.io/BinzoTv/manifest.json` works too.
