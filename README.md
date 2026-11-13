@@ -13,3 +13,13 @@ Use this Raw link in TiviMate, IPTV Smarters or any M3U player:
 ```
 https://raw.githubusercontent.com/albinzo/BinzoTv/main/sorted_iptv.m3u
 ```
+
+## Nuvio add-on
+
+`build_addon.py` turns the playlist into a static add-on in `docs/`, published with GitHub Pages and rebuilt by the same daily workflow. Each section shows up in Nuvio as its own row of live channels.
+
+Install link (paste it in Nuvio under Add-ons):
+
+```
+https://albinzo.github.io/BinzoTv/manifest.json
+```
